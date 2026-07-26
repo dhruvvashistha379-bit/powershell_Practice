@@ -9,3 +9,5 @@ Select-Object -Property MemberType -Unique
 
 write-output "this is where things get started"
 Get-Process a* | Get-Member -Type AliasProperty | Select-Object -Property Name
+
+$PsVersionTable
