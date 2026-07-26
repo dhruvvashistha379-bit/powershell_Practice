@@ -1,3 +1,4 @@
+$PSStyle.OutputRendering = 'PlainText'
 Get-Process a* |
 Get-Member |
 Select-Object -Property MemberType -Unique
@@ -9,3 +10,5 @@ Select-Object -Property MemberType -Unique
 
 write-output "this is where things get started"; Get-Process a* | Get-Member -Type AliasProperty | Select-Object -Property Name
 #paste above in powershell 7 and get the output there, seems something is wrong with access on this vdi.
+
+get-process | where-object {$_.name -eq "powershell"} | Get-Member  #could have used gm only instead of Get-Member
