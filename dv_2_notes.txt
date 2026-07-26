@@ -1,0 +1,4 @@
+video 1: This is for the use of the semicolon and building the scripts in one line.
+video 2: Keeping the objects: The main observation is that during the building of scripts in powershell,
+It intacts the object instead of just parsing the text for the output.
+video 3: 
