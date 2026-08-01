@@ -1,0 +1,3 @@
+The syntax of powershell is defined by {Verb-Noun} Command syntax,
+even in your own custom commands follow the convention please.
+
